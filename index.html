@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title>My Wardrobe</title>
+        
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>The Wardrobe</h1>
+          <div class="menu">
+            <button id="wardrbe"> Wardrobe</button>  
+            <button id="outfit"> Create Outfit</button> 
+            <button id="additem"> Add Item</button>
+          </div>
+          <section id="additemsec">
+            <h2>Add Item</h2>
+            <input type="file" id="itemimage" accept="image/*">
+            <label for="category">Category:</label>
+            
+            <select id="category">
+                <option value="dress">Dress</option>
+                <option value="hijab">Hijab</option>
+                <option value="sweater">Sweater</option>
+                <option value="vest">Vest</option>
+                <option value="accessory">Accessory</option>
+            </select>
+            <button id="additembtn">Add Item</button>
+          </section>
+          <div id="wardrobecontainer">
+            
+          </div>
+           <section id="outfitSec">
+    <h2>Create Outfit</h2>
+
+    <p>Your outfit will appear here.</p>
+</section> 
+        <script src="script.js"></script>
+    </body>
+</html>

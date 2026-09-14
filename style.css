@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(238, 200, 236);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.menu { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.menu button {  
+width: 80%;
+height: 50px;
+border-radius: 15px;
+font-size: 20px;
+border: none;
+background-color: #8e4585;
+color: white;
+}
+.menu button:hover {
+    background-color: #a056a0;
+    cursor: pointer;
+}
+#additemsec {
+    display: none;
+    margin-top: 20px;
+}
+#wardrobe{
+    display: none;
+    margin-top: 20px;
+    background-color: #a6aedd;
+}
+
+#outfitsec {
+    display: none;
+}
